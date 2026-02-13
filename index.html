@@ -18,7 +18,7 @@ body {
     overflow-x: hidden;
 }
 
-/* GLITTER */
+/* BACKDROP USING "pspsp" PATTERN */
 @keyframes glitter {
     0% { opacity: 0.3; }
     50% { opacity: 1; }
@@ -31,8 +31,14 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background: url('https://i.imgur.com/8yKXQ0E.png') repeat;
-    opacity: 0.15;
+    background: repeating-linear-gradient(
+        45deg,
+        black,
+        black 20px,
+        #ffffff 20px,
+        #ffffff 40px
+    );
+    opacity: 0.08;
     animation: glitter 4s infinite ease-in-out;
     pointer-events: none;
     z-index: -1;
@@ -160,34 +166,34 @@ footer {
 
 <div class="gallery">
 
-    <!-- ⭐ REPLACE THESE LINKS WITH YOUR GITHUB IMAGE LINKS ⭐ -->
+    <!-- ⭐ Replace these with your GitHub image links ⭐ -->
 
     <div class="product">
-        <img src="YOUR-IMAGE-LINK-1-HERE" alt="Jacket 1">
+        <img src="YOUR-IMAGE-LINK-1" alt="Jacket 1">
         <h3>Black Luxe Leather Jacket</h3>
         <p>$89.99</p>
     </div>
 
     <div class="product">
-        <img src="YOUR-IMAGE-LINK-2-HERE" alt="Jacket 2">
+        <img src="YOUR-IMAGE-LINK-2" alt="Jacket 2">
         <h3>Midnight Streetwear Jacket</h3>
         <p>$79.99</p>
     </div>
 
     <div class="product">
-        <img src="YOUR-IMAGE-LINK-3-HERE" alt="Jacket 3">
+        <img src="YOUR-IMAGE-LINK-3" alt="Jacket 3">
         <h3>Golden Trim Bomber</h3>
         <p>$99.99</p>
     </div>
 
     <div class="product">
-        <img src="YOUR-IMAGE-LINK-4-HERE" alt="Jacket 4">
+        <img src="YOUR-IMAGE-LINK-4" alt="Jacket 4">
         <h3>Noir Crop Jacket</h3>
         <p>$69.99</p>
     </div>
 
     <div class="product">
-        <img src="YOUR-IMAGE-LINK-5-HERE" alt="Jacket 5">
+        <img src="YOUR-IMAGE-LINK-5" alt="Jacket 5">
         <h3>Silk Shadow Jacket</h3>
         <p>$109.99</p>
     </div>
