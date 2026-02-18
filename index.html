@@ -18,7 +18,7 @@ body {
     overflow-x: hidden;
 }
 
-/* BACKDROP WITH REPEATED "pspsp" TEXT */
+/* BACKDROP */
 @keyframes glitter {
     0% { opacity: 0.3; }
     50% { opacity: 1; }
@@ -31,14 +31,11 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-
-    /* SVG that literally prints "pspsp" repeatedly */
     background-image: url("data:image/svg+xml;utf8,\
 <svg xmlns='http://www.w3.org/2000/svg' width='200' height='200'>\
 <rect width='100%' height='100%' fill='black'/>\
 <text x='50%' y='50%' fill='white' font-size='32' font-family='Playfair Display' text-anchor='middle' dominant-baseline='middle'>pspsp</text>\
 </svg>");
-
     background-repeat: repeat;
     background-size: 200px 200px;
     opacity: 0.12;
@@ -158,18 +155,16 @@ footer {
 <div class="glitter"></div>
 
 <nav>
-    <a href="#home">Home</a>
-    <a href="#shop">Shop</a>
+    <a href="index.html">Home</a>
+    <a href="shop.html">Shop</a>
     <a href="#contact">Contact</a>
 </nav>
 
 <div id="home" class="logo">Kitties & Pretties</div>
 
-<h2 id="shop">Featured Jackets</h2>
+<h2>Featured Jackets</h2>
 
 <div class="gallery">
-
-    <!-- Replace these with your GitHub image links -->
 
     <div class="product">
         <img src="YOUR-IMAGE-LINK-1" alt="Jacket 1">
@@ -187,18 +182,6 @@ footer {
         <img src="YOUR-IMAGE-LINK-3" alt="Jacket 3">
         <h3>Golden Trim Bomber</h3>
         <p>$99.99</p>
-    </div>
-
-    <div class="product">
-        <img src="YOUR-IMAGE-LINK-4" alt="Jacket 4">
-        <h3>Noir Crop Jacket</h3>
-        <p>$69.99</p>
-    </div>
-
-    <div class="product">
-        <img src="YOUR-IMAGE-LINK-5" alt="Jacket 5">
-        <h3>Silk Shadow Jacket</h3>
-        <p>$109.99</p>
     </div>
 
 </div>
